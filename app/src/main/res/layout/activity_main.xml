@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--    <com.google.android.material.imageview.ShapeableImageView-->
+    <!--        android:layout_gravity="top|start"-->
+    <!--        android:layout_columnWeight="1"-->
+    <!--        android:layout_rowWeight="1"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:layout_marginStart="5dp"-->
+    <!--        app:srcCompat="@drawable/ic_launcher_background" />-->
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/main_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>
