@@ -7,6 +7,7 @@ import android.widget.GridView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.seadox.okclikesviewer.Adapters.GridAdapter;
 import com.seadox.okclikesviewer.Models.IncomingLikes;
 import com.seadox.okclikesviewer.Models.IncommingLikes.Datum;
 import com.seadox.okclikesviewer.Utilities.SP;

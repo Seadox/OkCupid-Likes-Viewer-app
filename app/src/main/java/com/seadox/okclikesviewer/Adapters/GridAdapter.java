@@ -1,4 +1,4 @@
-package com.seadox.okclikesviewer;
+package com.seadox.okclikesviewer.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.android.material.imageview.ShapeableImageView;
+import com.seadox.okclikesviewer.R;
 import com.seadox.okclikesviewer.Utilities.Clipboard;
 import com.seadox.okclikesviewer.Utilities.SignalGenerator;
 

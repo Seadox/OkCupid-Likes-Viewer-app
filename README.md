@@ -8,4 +8,4 @@ security issues or bans.
 # Demo video
 
 Click on the image to go to the demo video
-[![Watch the video](/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)]
+(/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
