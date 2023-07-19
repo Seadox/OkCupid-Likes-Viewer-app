@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/DESC_TIMESTAMP"
+        android:title="Time" />
+    <item
+        android:id="@+id/DISTANCE_ASCENDING"
+        android:title="Distance" />
+    <item
+        android:id="@+id/AGE_ASCENDING"
+        android:title="Age" />
+</menu>

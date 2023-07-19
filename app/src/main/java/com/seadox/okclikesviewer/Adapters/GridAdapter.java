@@ -69,7 +69,7 @@ public class GridAdapter extends BaseAdapter {
         else
             newUrl = url;
 
-        SignalGenerator.getInstance().toast("link to the image has been copied", Toast.LENGTH_SHORT);
+        SignalGenerator.getInstance().toast("Link to the image has been copied", Toast.LENGTH_SHORT);
         Clipboard.getInstance().copy("OKC likes viewer", newUrl);
     }
 
@@ -77,5 +77,4 @@ public class GridAdapter extends BaseAdapter {
         allImages = new ArrayList<>(images);
         notifyDataSetChanged();
     }
-
 }
